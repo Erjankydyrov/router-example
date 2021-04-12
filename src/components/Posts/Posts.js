@@ -6,9 +6,9 @@ import { Route } from "react-router";
 const Posts = ({ match }) => {
     return ( 
         <div className={classes.Posts}>
-            Here posts
-            <PostList />
-            <Route path="/posts/:id" component={PostFull} />
+            { match.isExact 
+            ? <PostList /> 
+            : <Route path="/posts/:id" component={PostFull} />}
         </div>
     );
 }
