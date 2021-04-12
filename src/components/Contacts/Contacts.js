@@ -1,6 +1,8 @@
+import classes from "./Contacts.module.css";
+
 const Contacts = () => {
     return ( 
-        <div>
+        <div className={classes.Contacts}>
             This is contacts page
         </div>
     );
