@@ -10,3 +10,13 @@ html, body {
   min-height: 50px;
   background-color: teal;
 }
+.App ul li {
+  list-style-type: none;
+}
+.App ul li a {
+  text-decoration: none;
+}
+
+.activeLink {
+  color: red;
+}
