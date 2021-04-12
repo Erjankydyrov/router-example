@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
 }
-.App ul {
+.App .ulNav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -10,10 +10,10 @@ html, body {
   min-height: 50px;
   background-color: teal;
 }
-.App ul li {
+.App .ulNav li {
   list-style-type: none;
 }
-.App ul li a {
+.App .ulNav li a {
   text-decoration: none;
 }
 
