@@ -1,11 +1,14 @@
 import PostList from "./PostList/PostList";
+import PostFull from "./PostFull/PostFull";
 import classes from "./Posts.module.css";
+import { Route } from "react-router";
 
-const Posts = () => {
+const Posts = ({ match }) => {
     return ( 
         <div className={classes.Posts}>
             Here posts
             <PostList />
+            <Route path="/posts/:id" component={PostFull} />
         </div>
     );
 }
