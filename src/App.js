@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       This is App.js
       <Route path="/about" component={About} />
-      <About />
+      {/* <About /> */}
     </div>
   );
 }
