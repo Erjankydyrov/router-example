@@ -1,0 +1,12 @@
+html, body {
+  margin: 0;
+}
+.App ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  min-height: 50px;
+  background-color: teal;
+}
