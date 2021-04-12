@@ -1,11 +1,11 @@
 import classes from "./PostFull.module.css";
 
-const Posts = () => {
+const PostFull = ({ match }) => {
     return ( 
         <div className={classes.PostFull}>
-            Post
+            Post #{match.params.id}
         </div>
     );
 }
  
-export default Posts;
+export default PostFull;
