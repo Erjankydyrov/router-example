@@ -5,6 +5,7 @@
 }
 .PostList li {
     padding: 20px;
+    background-color: rgb(252, 207, 6);;
     border: 1px solid black;
     border-radius: 30px;
     flex-wrap: wrap;
@@ -15,7 +16,7 @@
     text-decoration: none;
 }
 .PostList li:hover {
-    background-color: rgb(170, 161, 161);
+    background-color: rgb(0, 255, 106);
     box-shadow: 0 0 5px black;
 }
 .PostList li a:hover {
