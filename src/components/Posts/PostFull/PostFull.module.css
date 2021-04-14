@@ -1,0 +1,12 @@
+.PostFull {
+    padding-top: 30px;
+    text-align: center;
+}
+.PostFull a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.PostFull a:hover {
+    color: red;
+    text-shadow: 0 0 10px black;
+}
