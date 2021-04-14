@@ -1,6 +1,8 @@
+import classes from "./NotFound.module.css";
+
 const NotFound = () => {
     return ( 
-        <div>Page NotFound</div>
+        <div className={classes.NotFound}><strong>Error:</strong> Page NotFound</div>
     );
 }
  
