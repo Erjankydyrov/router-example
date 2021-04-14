@@ -10,6 +10,12 @@ html, body {
   font-family: 'Libre Baskerville', serif;
 }
 
+.App img {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+}
+
 .App .ulNav {
   padding: 0;
   display: flex;

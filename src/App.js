@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Posts from './components/Posts/Posts';
 import WorldNews from './components/WorldNews/WorldNews';
+import logo from './images/newspaper.svg'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <ul className="ulNav">
+        <li><img src = {logo} alt = ""/></li>
         <li><NavLink exact activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/">Home</NavLink></li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/About">About</NavLink></li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/posts">Posts</NavLink></li>
