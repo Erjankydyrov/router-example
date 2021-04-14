@@ -2,6 +2,7 @@ import { Route, Switch } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
+import Analytic from './components/Analytic/Analytic';
 import Contacts from './components/Contacts/Contacts';
 import Economy from './components/Economy/Economy';
 import Home from './components/Home/Home';
@@ -24,6 +25,7 @@ function App() {
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/About">About</NavLink></li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/posts">Posts</NavLink></li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/economy">Economy</NavLink></li>
+        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/analytic">Analytic</NavLink></li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/worldNews">World News</NavLink></li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/contacts">Contacts</NavLink></li>
       </ul>
@@ -31,6 +33,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/posts" component={Posts} />
         <Route path="/economy" component={Economy} />
+        <Route path="/analytic" component={Analytic} />
         <Route path="/worldNews" component={WorldNews} />
         <Route path="/contacts" component={Contacts} />
         <Route exact path="/" component={Home} />
