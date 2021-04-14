@@ -6,7 +6,7 @@
 
 html, body {
   margin: 0;
-  background-color: #7373D9;
+  background-color: #b8b5ff;
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -24,7 +24,8 @@ html, body {
   margin: 0;
   width: 100%;
   min-height: 75px;
-  background-color: rgb(252, 207, 6);
+  background-color: #7868e6;
+  box-shadow: 0 0 10px black;
 }
 .App .ulNav li {
   list-style-type: none;
