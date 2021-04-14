@@ -20,17 +20,19 @@ function App() {
 
   return (
     <div className="App">
-      <ul className="ulNav">
-        <li><img src = {logo} alt = ""/></li>
-        <li><NavLink exact activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/">Home</NavLink></li>
-        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/About">About</NavLink></li>
-        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/posts">Posts</NavLink></li>
-        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/economy">Economy</NavLink></li>
-        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/worldValut">World currency</NavLink></li>
-        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/analytic">Analytic</NavLink></li>
-        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/worldNews">World News</NavLink></li>
-        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/contacts">Contacts</NavLink></li>
-      </ul>
+      <div className="divNav">
+        <img src = {logo} alt = ""/>
+        <ul className="ulNav">
+          <li><NavLink exact activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/">Home</NavLink></li>
+          <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/About">About</NavLink></li>
+          <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/posts">Posts</NavLink></li>
+          <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/economy">Economy</NavLink></li>
+          <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/worldValut">World currency</NavLink></li>
+          <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/analytic">Analytic</NavLink></li>
+          <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/worldNews">World News</NavLink></li>
+          <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/contacts">Contacts</NavLink></li>
+        </ul>
+      </div>
       <Switch>
         <Route path="/about" component={About} />
         <Route path="/posts" component={Posts} />
