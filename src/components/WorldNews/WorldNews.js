@@ -1,9 +1,10 @@
 import classes from "./WorldNews.module.css";
+import WorldPostList from "./WorldPostList/WorldPostList";
 
 const WorldNews = () => {
     return ( 
         <div className={classes.WorldNews}>
-            <h1>This page World News</h1>
+            <WorldPostList />
         </div>
     );
 }
