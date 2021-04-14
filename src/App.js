@@ -27,7 +27,6 @@ function App() {
         <Route path="/contacts" component={Contacts} />
         <Route exact path="/" component={Home} />
         <Route path="/" component={NotFound} />
-        {/* <Redirect to="/" /> */}
       </Switch>
     </div>
   );
