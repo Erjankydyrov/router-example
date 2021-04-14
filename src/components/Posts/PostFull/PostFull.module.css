@@ -10,3 +10,12 @@
     color: red;
     text-shadow: 0 0 10px black;
 }
+.img {
+    background-image: url(../../../images/city.jpg);
+    width: 700px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px black;
+    margin: 0 auto;
+}
