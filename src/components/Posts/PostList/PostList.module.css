@@ -14,3 +14,11 @@
 .PostList li a {
     text-decoration: none;
 }
+.PostList li:hover {
+    background-color: rgb(170, 161, 161);
+    box-shadow: 0 0 5px black;
+}
+.PostList li a:hover {
+    color: red;
+    text-shadow: 0 0 10px black;
+}
