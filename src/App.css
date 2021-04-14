@@ -32,8 +32,9 @@ html, body {
 }
 .App .ulNav li a {
   text-decoration: none;
+  color: black;
 }
 
 .activeLink {
-  color: red;
+  color: rgb(255, 0, 0);
 }
