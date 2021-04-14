@@ -1,11 +1,14 @@
+import { Route } from "react-router";
+import FullNews from "./FullNews/FullNews";
+import WNPosts from "./WNPosts/WNPosts";
 import classes from "./WorldNews.module.css";
 
-const WorldNews = () => {
+const WorldNews = ({ match }) => {
     return ( 
         <div className={classes.WorldNews}>
             { match.isExact 
-            ? <PostList /> 
-            : <Route path="/posts/:id" component={PostFull} />}
+            ? <WNPosts /> 
+            : <Route path="/wolrdNews/:id" component={FullNews} />}
         </div>
     );
 }
