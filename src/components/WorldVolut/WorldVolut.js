@@ -6,7 +6,7 @@ const WorldVolut = () => {
         <div className={classes.WorldVolut}>
             <div className={classes.voluta}>
                 <h2>Dollar</h2>
-                <img src={diagram} className={classes.diagram} />
+                <img src={diagram} className={classes.diagrama} />
             </div>
         </div>
     );
