@@ -1,11 +1,10 @@
 import classes from "./Economy.module.css";
-import img from "../../images/envelope.svg";
 
 const Economy = () => {
   return (
     <div className={classes.Economy}>
       <div className={classes.titleCom}>
-        <img src={img} alt="" />
+        <img src="" alt="" />
         <h4>Title</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
@@ -15,7 +14,7 @@ const Economy = () => {
         </p>
       </div>
       <div className={classes.titleCom}>
-        <img src={img} alt="" />
+        <img src="" alt="" />
         <h4>Title</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
@@ -25,7 +24,7 @@ const Economy = () => {
         </p>
       </div>
       <div className={classes.titleCom}>
-        <img src={img} alt="" />
+        <img src="" alt="" />
         <h4>Title</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
@@ -35,7 +34,7 @@ const Economy = () => {
         </p>
       </div>
       <div className={classes.titleCom}>
-        <img src={img} alt="" />
+        <img src="" alt="" />
         <h4>Title</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
@@ -45,7 +44,7 @@ const Economy = () => {
         </p>
       </div>
       <div className={classes.titleCom}>
-        <img src={img} alt="" />
+        <img src="" alt="" />
         <h4>Title</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
@@ -55,7 +54,7 @@ const Economy = () => {
         </p>
       </div>
       <div className={classes.titleCom}>
-        <img src={img} alt="" />
+        <img src="" alt="" />
         <h4>Title</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
@@ -65,7 +64,7 @@ const Economy = () => {
         </p>
       </div>
       <div className={classes.titleCom}>
-        <img src={img} alt="" />
+        <img src="" alt="" />
         <h4>Title</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
@@ -75,7 +74,7 @@ const Economy = () => {
         </p>
       </div>
       <div className={classes.titleCom}>
-        <img src={img} alt="" />
+        <img src="" alt="" />
         <h4>Title</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
