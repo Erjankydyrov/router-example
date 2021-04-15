@@ -17,6 +17,10 @@
     max-width: 300px;
     width: 100%;
     box-shadow: 0 0 10px black;
+    transition: transform .5s;
+}
+.otherNews:hover {
+    transform: scale(1.1);
 }
 .ulOther {
     padding: 0;
@@ -46,6 +50,10 @@
     box-shadow: 0 0 10px black;
     max-width: 800px;
     width: 100%;
+    transition: transform .5s;
+}
+.newglav:hover {
+    transform: scale(1.1);
 }
 .newglav img {
     min-width: 325px;
