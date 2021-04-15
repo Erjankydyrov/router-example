@@ -10,7 +10,7 @@ import NotFound from './components/NotFound/NotFound';
 import Posts from './components/Posts/Posts';
 import WorldNews from './components/WorldNews/WorldNews';
 import WorldVolut from './components/WorldVolut/WorldVolut';
-import logo from './images/newspaper.svg'
+import logo from './images/logo.svg'
 
 function App() {
 
