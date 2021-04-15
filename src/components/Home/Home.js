@@ -4,8 +4,21 @@ import Johnny from "../../images/Jonni.jpg";
 const Home = () => {
   return (
     <div className={classes.Home}>
-      <h1>News!</h1>
+      <h1>Home</h1>
       <div className={classes.dom}>
+            <div className={classes.otherNews}>
+                <h2>Other news</h2>
+                <ul className={classes.ulOther}>
+                    <li><a href="#">Coronavirus</a></li>
+                    <li><a href="#">Films</a></li>
+                    <li><a href="#">Hollywood</a></li>
+                    <li><a href="#">Cartoons</a></li>
+                    <li><a href="#">Countries</a></li>
+                    <li><a href="#">Actors</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">Cybersport</a></li>
+                </ul>
+            </div>
             <div className={classes.newglav}>
                 <img src={Johnny} alt="Johnny Depp" />
             <div className={classes.news}>
