@@ -25,8 +25,8 @@ html, body {
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
-  background-color: #000000;
-  box-shadow: 0 0 10px black;
+  background-color: #9c9c9cb0;
+  box-shadow: 0 0 15px black;
 }
 .App .ulNav {
   padding: 0;
