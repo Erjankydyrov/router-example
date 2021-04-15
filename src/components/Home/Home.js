@@ -9,14 +9,14 @@ const Home = () => {
             <div className={classes.otherNews}>
                 <h2>Other news</h2>
                 <ul className={classes.ulOther}>
-                    <li><a href="">Coronavirus</a></li>
-                    <li><a href="">Films</a></li>
-                    <li><a href="">Hollywood</a></li>
-                    <li><a href="">Cartoons</a></li>
-                    <li><a href="">Countries</a></li>
-                    <li><a href="">Actors</a></li>
-                    <li><a href="">Sport</a></li>
-                    <li><a href="">Cybersport</a></li>
+                    <li><a href="https://en.wikipedia.org/">Coronavirus</a></li>
+                    <li><a href="https://en.wikipedia.org/">Films</a></li>
+                    <li><a href="https://en.wikipedia.org/">Hollywood</a></li>
+                    <li><a href="https://en.wikipedia.org/">Cartoons</a></li>
+                    <li><a href="https://en.wikipedia.org/">Countries</a></li>
+                    <li><a href="https://en.wikipedia.org/">Actors</a></li>
+                    <li><a href="https://en.wikipedia.org/">Sport</a></li>
+                    <li><a href="https://en.wikipedia.org/">Cybersport</a></li>
                 </ul>
             </div>
             <div className={classes.newglav}>
